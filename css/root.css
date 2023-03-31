@@ -1,16 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 :root {
-  --purple: #4b16af;
-  --light-purple: #3e37bf;
-  --light-purple-two: #7779d4;
-  --light-blue: #1a8ee9;
-  --light-blue-two: #13b5fb;
-  --light-blue-three: #4d8ce2;
-  --dark-blue: #3350cc;
-  --dark-blue-two: #2c65d4;
+  --main-color: #228B22;
+  --second-color:#4CBB17;
+  --third-color:#008000;
   --light-color: #ffffff;
   --dark-color: #000000;
+  --light-dark-color:#5F8575;
   --font-size: 1.15rem;
 }
 
@@ -39,7 +35,7 @@ html {
 
 a {
   text-decoration: none;
-  color: var(--light-color);
+  color: var(--dark-color);
   transition: 0.2s;
 }
 
@@ -141,7 +137,7 @@ p {
   content: attr(data-title);
   display: block;
   margin-bottom: 0.4rem;
-  color: var(--light-blue);
+  color: var(--main-color);
   font-size: 1.15rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -154,7 +150,7 @@ p {
   width: 90px;
   height: 5px;
   border-radius: 3px;
-  background-color: var(--light-blue);
+  background-color: var(--main-color);
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -195,7 +191,7 @@ nav .container {
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
-  background-color: var(--light-blue);
+  /* background-color: var(--main-color); */
   transition: 0.3s;
 }
 
@@ -218,7 +214,7 @@ nav .container {
 .links a {
   display: inline-block;
   padding: 0.9rem 1.2rem;
-  color: var(--light-color);
+  color: var(--dark-color);
   font-size: 0.9rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -227,20 +223,20 @@ nav .container {
 }
 
 .links a.active {
-  background-color: var(--light-color);
-  color: var(--light-blue);
+  background-color: var(--main-color);
+  color: var(--light-color);
   border-radius: 0.5rem;
   padding: 0.8rem 1rem;
   margin-left: 1rem;
 }
 
 .links a:hover {
-  color: var(--light-purple-three);
+  color: var(--light-dark-color);
 }
 
 .links a.active:hover {
   color: var(--light-color);
-  background-color: var(--light-blue-two);
+  background-color: var(--second-color);
 }
 
 .header-content {
