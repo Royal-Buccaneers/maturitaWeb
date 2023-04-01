@@ -2,6 +2,11 @@
 
 h1 {
   font-size: 2rem;
+  width: 40vw;
+}
+
+.header h1 {
+  line-height: 4rem;
 }
 
 /* about */
