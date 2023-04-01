@@ -41,6 +41,7 @@ h1 {
 .main-services .item .item-title {
   font-size: 1.3rem;
   margin: 0.5rem;
+  font-weight: bold;
 }
 
 .main-services .item .item-text {
@@ -52,6 +53,7 @@ h1 {
 
 .services .items {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
 }
@@ -68,6 +70,7 @@ h1 {
   color: var(--light-color);
   border-radius: 0.3rem;
   transition: 0.3s;
+  margin: 2rem;
 }
 
 .services .item-parent:hover {
@@ -84,6 +87,8 @@ h1 {
   margin-bottom: 1rem;
   font-weight: bold;
 }
+
+/* FORM */
 
 #fs-frm input,
 #fs-frm select,
@@ -190,4 +195,23 @@ h1 {
 #fs-frm fieldset.locale input[name="city"],
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
+}
+#fs-frm [type="submit"] {
+  background-color: var(--main-color);
+  color: var(--light-color);
+  border-radius: 0.2rem;
+  border: none;
+  transition: 0.3s;
+}
+
+#fs-frm [type="submit"]:hover {
+  background-color: var(--second-color);
+  transform: translateY(-5%);
+}
+
+.box {
+  background-color: #ffff;
+  box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 1rem;
 }

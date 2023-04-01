@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 :root {
-  --main-color: #228B22;
-  --second-color:#4CBB17;
-  --third-color:#008000;
+  --main-color: #228b22;
+  --second-color: #4cbb17;
+  --third-color: #008000;
   --light-color: #ffffff;
   --dark-color: #000000;
-  --light-dark-color:#5F8575;
+  --light-dark-color: #5f8575;
   --font-size: 1.15rem;
 }
 
@@ -191,7 +191,7 @@ nav .container {
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
-  /* background-color: var(--main-color); */
+  background-color: rgb(255, 255, 255, 0.8);
   transition: 0.3s;
 }
 
@@ -284,4 +284,3 @@ nav .container {
 }
 
 /* END HEADER*/
-
