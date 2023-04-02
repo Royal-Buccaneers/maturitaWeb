@@ -232,6 +232,7 @@ nav .container {
 
 .links a:hover {
   color: var(--light-dark-color);
+  transform: translateY(-3%);
 }
 
 .links a.active:hover {
