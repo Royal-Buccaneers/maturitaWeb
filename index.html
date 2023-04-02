@@ -204,23 +204,40 @@
     </section>
     <sectioin class="contact">
       <div class="container">
-        <div class="box" id="kontakt">
-          <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/mzbqjaao"
-            method="post">
-            <fieldset id="fs-frm-inputs">
-              <label for="full-name">Jméno</label>
-              <input type="text" name="name" id="full-name" placeholder="Jméno a příjmení" required="">
-              <label for="email-address">Email</label>
-              <input type="email" name="_replyto" id="email-address" placeholder="email@domena.cz" required="">
-              <label for="telephone">Tel. číslo</label>
-              <input type="telephone" name="telephone" id="telephone" placeholder="+420 111 222 333" required="">
-              <label for="complaint">Název školy</label>
-              <textarea rows="2" name="Název školy" id="complaint" placeholder="Střední škola, Olomoucká 1, Brno"
-                required=""></textarea>
-              <input type="hidden" name="_subject" id="email-subject" value="Poslat">
-            </fieldset>
-            <input type="submit" value="Poslat">
-          </form>
+        <div class="grid-2">
+          <div class="column-1">
+            <h1>
+              Kontakt
+            </h1>
+            <p>V případe záujmu vyplňte formulář nebo nás přímo kontaktujte</p>
+            <br>
+            <br>
+            <p><strong>Richard Pavlikán</strong></p>
+            <p>richard@maturita.app</p>
+            <p>+421944719820</p>
+
+
+          </div>
+          <div class="column-2">
+            <div class="box" id="kontakt">
+              <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/mzbqjaao"
+                method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Jméno</label>
+                  <input type="text" name="name" id="full-name" placeholder="Jméno a příjmení" required="">
+                  <label for="email-address">Email</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="email@domena.cz" required="">
+                  <label for="telephone">Tel. číslo</label>
+                  <input type="telephone" name="telephone" id="telephone" placeholder="+420 111 222 333" required="">
+                  <label for="complaint">Název školy</label>
+                  <textarea rows="2" name="Název školy" id="complaint" placeholder="Střední škola, Olomoucká 1, Brno"
+                    required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Poslat">
+                </fieldset>
+                <input type="submit" value="Poslat">
+              </form>
+            </div>
+          </div>
         </div>
       </div>
 
